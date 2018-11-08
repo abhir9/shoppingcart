@@ -1,5 +1,5 @@
 {
-  "name": "Food_Order_UI",
+  "name": "Shooping_Order_UI",
   "version": "1.0.0",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",

@@ -37,6 +37,6 @@ process.on('uncaughtException', function(err) {
 
 
 // start server
-var server = app.listen(config.serverPort, function () {
+var server = app.listen(process.env.port||config.serverPort, function () {
     console.log('Server listening at http://' + server.address().address + ':' + server.address().port);
 });

@@ -9,7 +9,7 @@ const express = require('express'),
     validator = require('../utility/validator'),
     userServices = require('../services/user.services'),
     responseHandler = require('../utility/responseHandler');
-module.exports = function(router) {
+module.exports = function(router)   {
     router.route('/').get(function (req, res) {
     });
 
