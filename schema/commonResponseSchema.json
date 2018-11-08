@@ -1,0 +1,11 @@
+{
+ "type": "object",
+ "properties": {
+   "status": { "type": "number", "maxLength": 3 },
+   "success": { "type": "boolean"},
+   "message": { "type": "string"},
+   "content": { "type": "object"}
+  },
+  "required": [ "status","success","message" ],
+  "additionalProperties": false
+}

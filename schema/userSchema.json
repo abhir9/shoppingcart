@@ -1,0 +1,40 @@
+    {
+        "userLoginSchema": {
+            "type": "object",
+            "properties": {
+                "username": {
+                    "type": "string",
+                    "maxLength": 50
+                },
+                "password": {
+                    "type": "string",
+                    "maxLength": 50
+                }
+            },
+            "required": ["username", "password"],
+            "additionalProperties": false
+        }, "userSignUpSchema": {
+        "type": "object",
+        "properties": {
+            "username": {
+                "type": "string",
+                "maxLength": 50
+            },
+            "password": {
+                "type": "string",
+                "maxLength": 50
+            },
+            "firstName": {
+                "type": "string",
+                "maxLength": 50
+            },
+            "lastName": {
+                "type": "string",
+                "maxLength": 50
+            }
+        },
+        "required": ["username", "password","firstName","lastName"],
+        "additionalProperties": true
+    }
+
+    }

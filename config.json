@@ -1,0 +1,7 @@
+﻿{
+    "connectionString": "mongodb://demo:demo123@ds155823.mlab.com:55823/shoppingcart",
+    "apiUrl": "http://127.0.0.1/",
+    "appName": "/api/",
+    "serverPort":5040,
+    "secretKey": "As@09#$%_q1"
+}

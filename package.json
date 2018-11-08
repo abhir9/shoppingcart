@@ -1,0 +1,25 @@
+{
+  "name": "Shopping_Abhimanyu_Singh",
+  "version": "1.0.0",
+  "description": "A sample mean stack app for login & registration and shopping operations ",
+  "author": "Abhimanyu Singh Rathore",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.1.0",
+    "body-parser": "^1.13.2",
+    "ejs": "^2.3.3",
+    "express": "^4.13.0",
+    "jsonwebtoken": "^5.0.2",
+    "lodash": "^3.10.0",
+    "mongodb": "^2.2.36",
+    "mongoskin": "^2.1.0",
+    "nodemon": "^1.18.6",
+    "q": "^1.4.1",
+    "request": "^2.88.0",
+    "require-dir": "^0.3.2",
+    "rootpath": "^0.1.2"
+  },
+  "license": "MIT"
+}
